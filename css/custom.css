@@ -112,10 +112,9 @@ box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     width: 0;
     z-index: 1;
     right: 30px;
-    border: medium solid black;
+    border: medium solid #343a40;
     border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent black;
-    opacity: .7;
+    border-color: transparent transparent transparent #343a40;
 
 }
 
@@ -128,10 +127,9 @@ box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
     width: 0;
     z-index: 1;
     left: 30px;
-    opacity: .7;
-    border: medium solid black;
+    border: medium solid #343a40;
     border-width: 10px 10px 10px 0;
-    border-color: transparent black transparent transparent;
+    border-color: transparent #343a40 transparent transparent;
 }
 
 /* Fix the circle for containers on the right side */
@@ -204,14 +202,12 @@ box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
 	}
 }
 .timeline-title{
-	background-color:black;
-	color:white;
 	padding:5px;
 	color: #ece0e0;
-	opacity: .7;
 }
 .my_name_container{
 	line-height: .9;
+
 }
 .first_name1{
 	font-size: 50px;
